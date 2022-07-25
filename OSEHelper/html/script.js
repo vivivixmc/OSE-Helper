@@ -46,8 +46,8 @@
 	function login() {
 
 		if ((document.getElementById("authLogin").value == "demo") && (document.getElementById("authPass").value == "demo")) {
-			alert("Выбран демо режим");
-			window.location.href = 'file:///Users/dmitrijdavydov/Documents/OSE-Helper/OSEHelper/html/Backupindex.ht';
+			//alert("Выбран демо режим");
+			window.location = 'file:///Users/dmitrijdavydov/Documents/OSE-Helper/OSEHelper/html/Backupindex.html';
 		}
 		else getToken(document.getElementById("authLogin").value,document.getElementById("authPass").value);
 	}
