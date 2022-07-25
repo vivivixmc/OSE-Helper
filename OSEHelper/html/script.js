@@ -1,3 +1,4 @@
+
 	function getName() {
 		var url = "http://localhost:4567/getMyName";
 		
@@ -46,7 +47,7 @@
 	function login() {
 
 		if ((document.getElementById("authLogin").value == "demo") && (document.getElementById("authPass").value == "demo")) {
-			//alert("Выбран демо режим");
+			alert("Выбран демо режим");
 			window.location = 'file:///Users/dmitrijdavydov/Documents/OSE-Helper/OSEHelper/html/Backupindex.html';
 		}
 		else getToken(document.getElementById("authLogin").value,document.getElementById("authPass").value);
