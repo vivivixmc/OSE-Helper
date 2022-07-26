@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <script src="scripts.js"></script>
+<link rel="stylesheet" href="style.css">
+
 <html>
 <head>
 	<meta charset="utf-8">
@@ -7,13 +9,23 @@
 	<title>
 		MainPage
 	</title>
+	<table>
+	<tbody>
+		<tr>
+			<td>a</td>
+			<td>b</td>
+			<td>c</td>
+		</tr>
+	</tbody>
+</table>
 </head>
 <body>
-<b>Ваше имя:</b> <label id="nameLabel">---</label> <br>
-  		 	<input type="text" id="searchTxt" size="40"> <button onclick="setName()">Записать имя</button><br>
-  			<button onclick="getName()">Получить имя</button><br>
-  		 	<input type="reset" value="Очистить"></p>
-
+	<div class="menu">
+		<b>Ваше имя:</b> <label id="nameLabel">---</label> <br>
+  		<input type="text" id="searchTxt" size="40"> <button onclick="setName()">Записать имя</button><br>
+  		<button onclick="getName()">Получить имя</button><br>
+  		<input type="reset" value="Очистить"></p>
+  	</div>
 </body>
 </html>
 

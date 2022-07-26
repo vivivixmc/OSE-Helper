@@ -3,7 +3,31 @@
 }
 body {
    background: gray;
+   top: 60px;
 }
+table {
+   width: 100%;
+   table-layout: fixed;
+   height: 60px;
+   background: #e0120f;
+   padding: 10px;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   z-index: 30;
+}
+
+table td {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.menu{
+   top: 80px;
+   position: absolute;
+}
+
 .decor {
    position: relative;
    max-width: 400px;
