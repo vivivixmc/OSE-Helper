@@ -30,12 +30,19 @@ article {
     margin-left: 240px;
     display: block;
     top: 60px;
-    position: fixed;
+    margin-top: 70px;
    }
 
 table td {
   width: 100%;
   border: 1px solid black;
+}
+.clusterblock{
+   float: right;
+   text-align: right;
+}
+#clusterselect{
+   width: 200px;
 }
 .menu{
    position: absolute;
